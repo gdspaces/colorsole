@@ -124,8 +124,8 @@ body {
   display: flex;
   min-width: 600px;
   margin: 0;
-  background-color: #eff3ed;
-  color: rgba(249, 74, 98, 0.9);
+  background-color: #6e756b;
+  color: rgba(255, 209, 107);
   font-family: 'PT Sans', sans-serif;
   margin-top : 10px;
 }
@@ -565,8 +565,8 @@ button:active {
   max-width: calc(100vh - 2em);
   max-height: calc(100vh - 2em);
   overflow: hidden;
-  border: 12px solid #a8ecd0;
-  border-radius: 12px;
+  border: 9px solid #e3f1f0;
+  border-radius: 9px;
 }
 
 :root {
@@ -595,7 +595,7 @@ button:active {
 }
 
 #matrix {
-  background-color: #a8ecd0;
+  background-color: #e3f1f0;
   overflow: hidden;
 }
 
@@ -609,23 +609,96 @@ button:active {
 #overlay .plot {
   z-index: 50;
   background: none;
-  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.05), inset -2px -2px 0 #a8ecd0;
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.05), inset -2px -2px 0 #e3f1f0;
 }
 
-.plot-red {
+.plot-1 {
     width: 98%;
     height: calc(100% - 1vh );
-    background-color: #f94a62;
     outline: none;
     border: none;
-    background-size: calc(10vw - 4px);
-    border-radius: 9px;
-    box-shadow: 0 1vh #f72d48;
-	text-align: center;
-	padding-top: calc(50% - 6px);
-	color: #f3f9f0;
+    background-image: url('../img/b81.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
+.plot-2 {
+    width: 98%;
+    height: calc(100% - 1vh );
+    outline: none;
+    border: none;
+    background-image: url('../img/b82.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plot-3 {
+    width: 98%;
+    height: calc(100% - 1vh );
+    outline: none;
+    border: none;
+    background-image: url('../img/b83.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plot-4 {
+    width: 98%;
+    height: calc(100% - 1vh );
+    outline: none;
+    border: none;
+    background-image: url('../img/b84.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plot-5 {
+    width: 98%;
+    height: calc(100% - 1vh );
+    outline: none;
+    border: none;
+    background-image: url('../img/b85.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plot-6 {
+    width: 98%;
+    height: calc(100% - 1vh );
+    outline: none;
+    border: none;
+    background-image: url('../img/b86.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plot-7 {
+    width: 98%;
+    height: calc(100% - 1vh );
+    outline: none;
+    border: none;
+    background-image: url('../img/b87.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plot-8 {
+    width: 98%;
+    height: calc(100% - 1vh );
+    outline: none;
+    border: none;
+    background-image: url('../img/b88.png');
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 
 .plot-red-broder {
     width: 98%;
@@ -867,18 +940,18 @@ select {
 .button-one {
   padding:1vw 2vw;
   outline: none;
-  background-color: #27ae60;
+  background-color: #a2b5dc;
   border: none;
   border-radius:5px;
   box-shadow: 0 9px #95a5a6;
 }
 
 .button-one:hover{
-  background-color: #2ecc71;
+  background-color: #a2b5dc;
 }
 
 .button-one:active {
-  background-color: #2ecc71;
+  background-color: #a2b5dc;
   box-shadow: 0 5px #95a5a6;
   transform: translateY(4px);
 }
@@ -888,7 +961,7 @@ select {
 .button-two {
   padding:1vw 2vw;
   outline: none;
-  background-color: #27ae60;
+  background-color: #a2b5dc;
   border: none;
   border-radius:5px;
   box-shadow: 0 9px #95a5a6;
@@ -984,14 +1057,14 @@ select {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 40%;
   position: relative;
   transition: all 5s ease-in-out;
 }
 
 .popup h2 {
   margin-top: 0;
-  color: #f94a62;
+  color: #ffd16b;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -1022,8 +1095,8 @@ text-align : center;
 }
 .popup .content {
   max-height: 30%;
-  overflow: auto;
     color: #000;
+	overflow-y: visible;
 }
 
 
@@ -1043,6 +1116,6 @@ text-align : center;
     margin-right: auto;
 	width:80px;
     font-size: 1.2em;
-	background: #f94a62;
+	background: #ffd16b;
 	height: 40px;
 }
