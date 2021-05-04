@@ -611,88 +611,88 @@ button:active {
 }
 
 .plot-1 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b81.png');
+    background-image: url('../img/x11.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .plot-2 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b82.png');
+    background-image: url('../img/x21.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .plot-3 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b83.png');
+    background-image: url('../img/x31.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .plot-4 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b84.png');
+    background-image: url('../img/x41.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .plot-5 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b85.png');
+    background-image: url('../img/x51.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .plot-6 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b86.png');
+    background-image: url('../img/x61.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .plot-7 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b87.png');
+    background-image: url('../img/x71.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .plot-8 {
-    width: 98%;
-    height: calc(100% - 1vh );
+    width: 95%;
+    height: 95%;
     outline: none;
     border: none;
-    background-image: url('../img/b88.png');
+    background-image: url('../img/x81.png');
 	  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
