@@ -563,7 +563,7 @@ button:active {
   max-width: calc(100vh - 2em);
   max-height: calc(100vh - 2em);
   overflow: hidden;
-  border: 9px solid #e3f1f0;
+  border: 9px solid #f5f5f5;
   border-radius: 9px;
 }
 
@@ -593,7 +593,7 @@ button:active {
 }
 
 #matrix {
-  background-color: #e3f1f0;
+  background-color: #f5f5f5;
   overflow: hidden;
 }
 
@@ -607,7 +607,7 @@ button:active {
 #overlay .plot {
   z-index: 50;
   background: none;
-  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.05), inset -2px -2px 0 #e3f1f0;
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.05), inset -2px -2px 0 #f5f5f5;
 }
 
 .plot-1 {
