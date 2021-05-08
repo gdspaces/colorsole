@@ -135,7 +135,7 @@ body {
 #moves {
   position: absolute;
   top: 8px;
-  right: 130px;
+  right: 3vh;
   font-size: 2vw;
 }
 
