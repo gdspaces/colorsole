@@ -669,7 +669,7 @@
 							'0 1 0 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 0 1 0 1 1 0',
 							'1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 1 0 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 0 1',
 							'0 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 0 1 1 0 1 1 0 1']
-	var index = localStorage.getItem('knight-movelevel');
+	var index = localStorage.getItem('colorsole-movelevel');
 	document.getElementById("level").selectedIndex = index;
 	if(null == index)
 	{
@@ -691,7 +691,7 @@
 	function store_level()
 	{
 		if (typeof(Storage) !== "undefined") {			
-		  localStorage.setItem("knight-movelevel", index);
+		  localStorage.setItem("colorsole-movelevel", index);
 		}
    }
 	
