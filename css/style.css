@@ -3,7 +3,9 @@
 @media screen and (max-width: 768px){
   .popup{
     width: 80% !important	;
-    margin: 3vh auto !important	;
+    margin: 10vh auto !important	;
+	max-height: 80vh;
+    overflow-y: scroll;
   }
 
   body {
